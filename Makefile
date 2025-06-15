@@ -20,7 +20,7 @@ test:
 
 # Lint code using mypy
 lint:
-	poetry run flake8 .
+	poetry run flake8 --ignore=E501 .
 
 # Format code using black
 format:
