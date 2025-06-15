@@ -43,7 +43,7 @@ The LogLog algorithm is a probabilistic algorithm for cardinality estimation, i.
 
 ## How It Works
 - The algorithm hashes each element in the stream to a uniformly random value.
-- It keeps track of the maximum number of leading zeros observed in the binary representation of the hash values.
+- It keeps track of the maximum count of leading zeros observed in the binary representation of the hash values.
 - The number of leading zeros is used to estimate the cardinality, based on the intuition that the probability of seeing a hash with many leading zeros decreases exponentially with the number of zeros.
 - The final estimate is computed using a mathematical formula involving the observed maximum and a correction factor.
 
