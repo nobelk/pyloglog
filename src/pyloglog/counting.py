@@ -1,5 +1,5 @@
-from array import array
 import math
+from array import array
 
 
 def r(x: int) -> int:
